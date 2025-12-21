@@ -1,47 +1,27 @@
 #include <stdio.h>
 int main(){
-	char operator;
-	double num1, num2, result;
+        int sub1, sub2, sub3, sub4, sub5;
+        int total;
+        float percentage;
+        int requiredMarks;
 
-	printf("Hey! Chaliye Shuru Karte Hain!..\n");
-	printf("Choose operation to perform: \n");
-	printf("+ for Addition\n");
-	printf("- for Subtraction\n");
-	printf("* for Multiplication\n");
-	printf("/ for Division\n");
+        printf("Welcome to Student Grading Marking System\n");
 
-	printf("Enter an operator to perform: ");
-	scanf("%c", &operator);
+        printf("Enter the marks of English: \n");
+        scanf("%d", &sub1);
+        printf("Enter the marks of Mathematics: \n");
+        scanf("%d", &sub2);
+        printf("Enter the marks of Physics: \n");
+        scanf("%d", &sub3);
+        printf("Enter the marks of Chemistry: \n");
+        scanf("%d", &sub4);
+        printf("Enter the marks of Computer Science: \n");
+        scanf("%d", &sub1);
 
-	printf("Enter first no.: \n"); 
-	scanf("%lf", &num1);
-	printf("Enter second no.: \n");
-	scanf("%lf", &num2);
+        total = sub1 + sub2 + sub3 + sub4 + sub5;
+        printf("Your total marks is: %d / 500\n", total);
+        percentage = (total / 500) * 100;
+        printf("You obtained: %.2f%%\n", percentage);
 
-	switch (operator){
-		case '+':
-			result = num1 + num2;
-			printf("Result: %.2lf\n", result);
-			break;
-		case '-':
-			result = num1 - num2;
-			printf("Result: %.2lf\n", result);
-			break;
-		case '*':
-			result = num1 * num2;
-			printf("Result: %.2lf\n", result);
-			break;
-		case '/':
-			if (num2 != 0){
-				result = num1 / num2;
-				printf("Result: %.2lf\n", result);
-			}
-			else{
-				printf("Error: Division by zero is not allowed!\n");
-			}
-			break;
-		default:
-			printf("Invalid Operator Selected.\n");
-	}
-	return 0;
+return 0;
 }
