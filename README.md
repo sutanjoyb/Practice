@@ -13,7 +13,7 @@ Compile a program:<br>
 gcc filename.c -o filename<br>
 Run the program:<br>
 ./filename<br>
-Example:<br
+Example:<br>
 gcc factorial.c -o factorial<br>
 ./factorial<br><br>
 
