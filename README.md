@@ -1,12 +1,12 @@
 This repository contains a collection of basic C programs created for practice and learning fundamental programming concepts in the C language.
-Each program focuses on a specific problem statement commonly taught in introductory C programming courses.<br><br>
+Each program focuses on a specific problem statement commonly taught in introductory C programming courses.<br><hr>
 
 🛠️ Tools Used:<br>
 Language: C<br>
 Compiler: GCC (MinGW / MinGW-w64)<br>
 Editor: Visual Studio Code<br>
 Terminal: Git Bash<br>
-OS: Windows<br><br>
+OS: Windows<br><br><hr>
 
 ▶️ How to Compile and Run:<br>
 Compile a program:<br>
@@ -15,7 +15,7 @@ Run the program:<br>
 ./filename<br>
 Example:<br>
 gcc factorial.c -o factorial<br>
-./factorial<br><br>
+./factorial<br><br><hr>
 
 📌 Purpose of This Repository:<br>
 Practice core C programming concepts<br>
