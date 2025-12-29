@@ -10,9 +10,9 @@ OS: Windows<br><br>
 
 ▶️ How to Compile and Run:<br>
 Compile a program:<br>
-gcc filename.c -o filename
+gcc filename.c -o filename<br>
 Run the program:<br>
-./filename
+./filename<br>
 Example:<br
 gcc factorial.c -o factorial<br>
 ./factorial<br><br>
