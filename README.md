@@ -25,6 +25,7 @@ gcc filename.c -o filename<br><br>
 
 View the output displayed in the terminal.<br>
 
+
 **Note:** <br>
 
 Replace filename with the actual C file name.<br>
