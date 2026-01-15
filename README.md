@@ -6,19 +6,27 @@ This repository contains a curated collection of fundamental C programs intended
 
 ▶ How to Run the Programs (Using Git Bash)
 
-Open Git Bash and navigate to the project directory:<br>
+1. Open Git Bash on your system.<br>
+
+Navigate to the repository directory:<br>
 
 cd path/to/repository<br><br>
 
 
-Compile the C program using GCC:<br>
+2. Compile the C source file using GCC:<br>
 
 gcc filename.c -o filename<br><br>
 
 
-Run the executable:<br>
+3. Execute the compiled program:<br>
 
 ./filename<br><br>
 
 
-Ensure that GCC is installed and properly configured on your system before compiling.
+View the output displayed in the terminal.<br>
+
+**Note:** <br>
+
+Replace filename with the actual C file name.<br>
+
+Ensure GCC is installed and properly configured before compiling.
