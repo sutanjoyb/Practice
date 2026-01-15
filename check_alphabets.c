@@ -9,8 +9,7 @@ int main() {
     for (int i = 0; str[i] != '\0'; i++) {
         count++;
 
-        if (!((str[i] >= 'a' && str[i] <= 'z') ||
-              (str[i] >= 'A' && str[i] <= 'Z'))) {
+        if (!((str[i] >= 'a' && str[i] <= 'z') || (str[i] >= 'A' && str[i] <= 'Z'))) {
             onlyAlphabets = false;
             break;
         }
