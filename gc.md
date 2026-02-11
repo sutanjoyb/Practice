@@ -37,4 +37,6 @@ gcloud compute forwarding-rules create news-https-forwarding-rule \
     --target-https-proxy=news-https-proxy \
     --ports=443
 
-gcloud compute backend-buckets describe news-backend-bucket
+gcloud compute backend-buckets create news-backend-bucket \
+    --gcs-bucket-name=news-static-bucket \
+    --enable-cdn
